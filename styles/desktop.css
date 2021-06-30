@@ -16,3 +16,52 @@ body p {
 }
 /*End of formating for body*/
 
+/*header formating*/
+header {
+    padding: 60px;
+}
+
+header img {
+    margin-left: 80px;
+}
+/*end of header formatting*/
+
+/* hero section*/
+.hero-section {
+    display: flex;
+}
+.left-hero {
+    flex: 1;
+    background-image: url(../assets/illustration-hero-left.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    max-width: 800px;
+    min-height: 400px;
+}
+.right-hero {
+    flex: 1;
+    background-image: url(../assets/illustration-hero-right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 800px;
+    min-height: 400px;
+}
+
+.middle-hero {
+    flex: 1;
+    max-width: 580px;
+    text-align: center;
+    
+}
+.middle-hero h1 {
+    max-width: 540px;
+    font-weight: 800;
+    font-size: 2.8em;
+    line-height: 56px;
+    margin: auto;
+    padding-bottom:  25px;
+}
+/* end hero section*/
+
