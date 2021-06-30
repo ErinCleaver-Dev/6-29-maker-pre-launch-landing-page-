@@ -108,5 +108,72 @@ header img {
     margin: 0 auto;
 }
 
+.about-services {
+    display: flex;
+    justify-content: center;
+}
+
+.service-box {
+    max-width: 450px;
+    padding: 50px 25px 25px 25px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.service-box.left-service-box {
+    background-color: #093F68;
+    margin-right: 25px;    
 
 
+}
+
+.service-box ul {
+    list-style-type: none;
+}
+
+.service-box h2, li, p {
+    padding-bottom: 25px;
+}
+
+
+.service-box.right-service-box {
+    background-color: #3EE9E5;   
+}
+.service-box.right-service-box h2 {
+    color: black;
+}
+
+.service-box.right-service-box p {
+    color: black;
+}
+.service-box.right-service-box li {
+    color: black;
+}
+.service-box p.text-bolded {
+    font-weight: 800;
+}
+
+p.text-bolded.color_white {
+    color: white;
+}
+
+.service-box::before {
+    content: "";
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -75px;
+    margin-left: 30px;
+    z-index: 1;
+    
+}
+
+.service-box.left-service-box::before {
+    background-image: url(../assets/icon-free.svg);
+}
+
+.service-box.right-service-box::before {
+    background-image: url(../assets/icon-paid.svg);
+    margin-top: -80px;
+}
