@@ -29,6 +29,8 @@ header img {
 /* hero section*/
 .hero-section {
     display: flex;
+    width: 100%;
+    overflow: hidden;
 }
 
 .hero-images {
@@ -40,13 +42,15 @@ header img {
 }
 .left-hero {
     background-image: url(../assets/illustration-hero-left.svg);
-
+    margin-left: -50px;
     background-position: left;
 
 }
 .right-hero {
     background-image: url(../assets/illustration-hero-right.svg);
-    background-position: right;
+    background-position: right;    
+    margin-right: -60px;
+
 
 }
 
@@ -65,14 +69,13 @@ header img {
     padding-bottom:  25px;
 }
 
-.middle-hero p {
-    padding-bottom: 100px;
-}
+
 /* end hero section*/
 
 /* start What is given section */
 
 .what-is-given {
+    padding: 140px 0;
     display: flex;
     justify-content: center;
 }
@@ -80,3 +83,30 @@ header img {
 .box-formated {
     max-width: 230px;
 }
+
+
+
+.box-formated.movement-2 {
+    margin-top: 50px;
+}
+
+.background-blue {
+    background-color: #093F68;
+    border-radius:  25px;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-section {
+    text-align: center;
+    padding-bottom: 60px;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+
+
