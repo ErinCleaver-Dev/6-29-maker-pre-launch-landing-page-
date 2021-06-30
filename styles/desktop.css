@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*formating for body*/
+body {
+    background-color: #080C20;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+body p {
+ color: #777F98;   
+}
+/*End of formating for body*/
+
