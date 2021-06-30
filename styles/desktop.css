@@ -101,6 +101,10 @@ header img {
     align-items: center;
 }
 
+
+/* end What is given section */
+
+/* start pricing section */
 .pricing-section {
     text-align: center;
     padding-bottom: 60px;
@@ -177,3 +181,41 @@ p.text-bolded.color_white {
     background-image: url(../assets/icon-paid.svg);
     margin-top: -80px;
 }
+/* end pricing section */
+
+/* start footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#text_box {
+    background-color: #093F68;
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+#text_box:focus {
+    border-radius: 25px;
+    border: 1px solid #3EE9E5;
+    outline: none;
+}
+
+#get_notified {
+    background-color: #3EE9E5;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+/* end footer */
