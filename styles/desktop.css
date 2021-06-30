@@ -30,23 +30,24 @@ header img {
 .hero-section {
     display: flex;
 }
-.left-hero {
+
+.hero-images {
     flex: 1;
-    background-image: url(../assets/illustration-hero-left.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: left;
     max-width: 800px;
     min-height: 400px;
 }
+.left-hero {
+    background-image: url(../assets/illustration-hero-left.svg);
+
+    background-position: left;
+
+}
 .right-hero {
-    flex: 1;
     background-image: url(../assets/illustration-hero-right.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: right;
-    max-width: 800px;
-    min-height: 400px;
+
 }
 
 .middle-hero {
@@ -63,5 +64,19 @@ header img {
     margin: auto;
     padding-bottom:  25px;
 }
+
+.middle-hero p {
+    padding-bottom: 100px;
+}
 /* end hero section*/
 
+/* start What is given section */
+
+.what-is-given {
+    display: flex;
+    justify-content: center;
+}
+
+.box-formated {
+    max-width: 230px;
+}
