@@ -8,11 +8,16 @@
     }
 
     .left-hero {
-        margin-left: -200px;
+        margin-left: -75px;
     }
     .right-hero {
-        margin-right: -250px;
+        margin-right: -100px;
 
+    }
+
+    .middle-hero {
+        min-width: 400px;
+        padding: 40px;
     }
 
     .what-is-given {
