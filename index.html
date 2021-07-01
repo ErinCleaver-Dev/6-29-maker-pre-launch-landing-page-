@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./styles/desktop.css">
+  
   <title>Frontend Mentor | Maker pre-launch landing page</title>
 </head>
 <body>
@@ -118,10 +119,13 @@
   </main>
   <footer>
     <h3>Get notified when we launch</h3>
-    <form action="/" method="post">
+    <form id="my_form">
     <input id="text_box" type=text placeholder="Email address">
     <input id="get_notified" type="submit" value="Get notified">
     </form>
+    <div id="error">
+    </div>
   </footer>
+  <script src="./javascript/validation.js"></script>
 </body>
 </html>

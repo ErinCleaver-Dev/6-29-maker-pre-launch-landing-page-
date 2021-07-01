@@ -204,12 +204,16 @@ footer h3 {
     width: 200px;
     border-radius: 25px;
     margin-right: 10px;
+    font-size: .7em;
 }
 
 #text_box:focus {
     border-radius: 25px;
     border: 1px solid #3EE9E5;
     outline: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: .7em;
 }
 
 #get_notified {
@@ -217,5 +221,24 @@ footer h3 {
     border: none;
     padding: 10px;
     border-radius: 25px;
+    font-weight: 800;
+    font-size: .7em;
+}
+
+#get_notified:hover {
+    background-color: #080C20;
+    border: 1px solid #3EE9E5;
+    color: #fff;
+
+}
+
+#get_notified:active {
+    background-color: #080C20;
+    border: 1px solid #3EE9E5;
+    color: #fff;
+}
+
+#error {
+    color: #FF2965;
 }
 /* end footer */
