@@ -1,48 +1,48 @@
 @media only screen and (max-width: 767px) {
+    body {
+        width: 105%;
+    }
 
+    header {
+        padding: 60px 0px;
+        margin: 0px auto;
+    }
     .hero-section {
-        overflow: visible;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
     }
 
-    .right-hero {
-        visibility: hidden;
-    }
-
-    .left-hero {
-        background-image: none;
-        background-position: none;
-        min-height: none;
-    }
     .hero-images {
-        background-image: url("../assets/illustration-hero-mobile.png");
-        margin-left: 0;
-        margin-right: 0;
-        min-width: 300px;
-        max-height: 100%;
+        min-width: 200px;
     }
+    
+    
+    .left-hero {
+        order: 1;
+        margin-left: -25px;
+    }
+    .right-hero {
+        order: 2;
+        margin-right: -75px;
+    }
+    .middle-hero {
+        order: 3;
+        min-width: 180px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
     .what-is-given {
         flex-direction: column;
-        justify-content: center;
-        padding: 25px 0;
-    }
+        align-items: center;
+        text-align: center;
 
-    .box-formated {
-        display: flex;
-        max-width: 100%;
-        flex-direction: column;
     }
-
     .background-blue {
-        margin-right: 25px;
-        min-width: 140px;
-        min-height: 140px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
-
-    .movement-1 {
-        margin-bottom: 0px;
-    }
-
     .about-services {
         flex-direction: column;
         align-items: center;
@@ -51,9 +51,33 @@
     .service-box.right-service-box, .service-box.left-service-box {
         margin-bottom: 50px;
         max-width: 420px;
-        margin-left: 0px;
-        margin-right: -25px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
+    footer h3 {
+        text-align: center;
+    }
+
+    #text_box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #get_notified {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero-images {
+        min-width: 100px;
+    }
+    .middle-hero {
+        order: 3;
+        min-width: 200px;
+        
+    }
 
 }

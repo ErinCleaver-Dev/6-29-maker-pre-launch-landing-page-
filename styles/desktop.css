@@ -29,7 +29,6 @@ header img {
 /* hero section*/
 .hero-section {
     display: flex;
-    width: 100%;
     overflow: hidden;
 }
 
