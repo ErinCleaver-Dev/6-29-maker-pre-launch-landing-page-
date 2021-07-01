@@ -1,30 +1,36 @@
-@media only screen and (min-width: 768px) and (max-width: 959px) { 
-    header {
-        padding: 20px;
-    }
-    
+@media only screen and (max-width: 767px) {
+
     .hero-section {
         overflow: visible;
+        flex-direction: column;
+    }
+
+    .right-hero {
+        visibility: hidden;
     }
 
     .left-hero {
-        margin-left: -200px;
+        background-image: none;
+        background-position: none;
+        min-height: none;
     }
-    .right-hero {
-        margin-right: -250px;
-
+    .hero-images {
+        background-image: url("../assets/illustration-hero-mobile.png");
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 300px;
+        max-height: 100%;
     }
-
     .what-is-given {
         flex-direction: column;
-        align-items: center;
-        margin: 0 75px;
-        margin-left: 100px;
+        justify-content: center;
+        padding: 25px 0;
     }
 
     .box-formated {
         display: flex;
         max-width: 100%;
+        flex-direction: column;
     }
 
     .background-blue {
@@ -34,11 +40,7 @@
     }
 
     .movement-1 {
-        margin-top: 25px;
         margin-bottom: 0px;
-    }
-    .movement-1 {
-        margin-left: 50px;
     }
 
     .about-services {
@@ -52,7 +54,6 @@
         margin-left: 0px;
         margin-right: -25px;
     }
-
 
 
 }
