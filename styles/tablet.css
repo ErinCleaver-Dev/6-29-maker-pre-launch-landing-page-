@@ -1,0 +1,54 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+    .hero-section {
+        overflow: visible;
+    }
+
+    .left-hero {
+        margin-left: -200px;
+    }
+    .right-hero {
+        margin-right: -250px;
+
+    }
+
+    .what-is-given {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 75px;
+        margin-left: 100px;
+    }
+
+    .box-formated {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .background-blue {
+        margin-right: 25px;
+        min-width: 140px;
+        min-height: 140px;
+    }
+
+    .movement-1 {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    .movement-1 {
+        margin-left: 50px;
+    }
+
+    .about-services {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .service-box.right-service-box, .service-box.left-service-box {
+        margin-bottom: 50px;
+        max-width: 420px;
+        margin-left: 0px;
+        margin-right: -25px;
+    }
+
+
+
+}
