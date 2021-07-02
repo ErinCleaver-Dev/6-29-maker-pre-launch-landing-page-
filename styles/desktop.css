@@ -132,8 +132,14 @@ header img {
 
 }
 
-.service-box ul {
-    list-style-type: none;
+.service-box.right-service-box ul {
+    list-style-image: url('../assets/icon-check.svg');
+    padding-left: 25px;
+}
+
+.service-box.left-service-box ul {
+    list-style-image: url('../assets/icon-check-green.svg');
+    padding-left: 25px;
 }
 
 .service-box h2, li, p {
