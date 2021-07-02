@@ -54,6 +54,8 @@ header img {
 }
 
 .middle-hero {
+    background-image: url(../assets/bg-hero-squiggle.svg);
+    background-repeat: no-repeat;
     flex: 1;
     max-width: 580px;
     text-align: center;
@@ -172,6 +174,10 @@ p.text-bolded.color_white {
     
 }
 
+.about-services img {
+    background-color: green;
+}
+
 .service-box.left-service-box::before {
     background-image: url(../assets/icon-free.svg);
 }
@@ -189,7 +195,11 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 100px 0px;
+    background-image: url(../assets/bg-footer-squiggle.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding: 100px;
 }
 
 footer h3 {
