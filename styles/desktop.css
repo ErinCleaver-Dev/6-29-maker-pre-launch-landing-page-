@@ -175,7 +175,7 @@ p.text-bolded.color_white {
 }
 
 .about-services img {
-    background-color: green;
+    fill: green;
 }
 
 .service-box.left-service-box::before {
